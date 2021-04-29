@@ -1,0 +1,30 @@
+.auth-block {
+    width: 346px;
+    height: 285px;
+    border-radius: 33px;
+    margin: 63px auto auto calc(50vw - 692px / 4);
+}
+
+.auth-hello-text {
+    font-size: calc(181px / 2);
+    margin-top: calc(50vh - 183px);
+}
+
+.auth-block p {
+    font-size: calc(57px / 2);
+}
+.auth-answer-text {
+    margin-top: 105px;
+}
+.auth-request-text {
+    margin-top: 10px;
+}
+
+.auth-input {
+    width: 190px;
+    height: 51px;
+    border-radius: 22px;
+    font-size: calc(57px / 2);
+    margin-left: calc(50% - 95px);
+    margin-top: 15px;
+}

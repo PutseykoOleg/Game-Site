@@ -1,0 +1,10 @@
+.header .user-name {
+    font-size: calc(57px / 2);
+    margin: 47px auto auto calc(100vw - 195px - 80px);
+}
+
+.header .background-img{
+    width: 65px;
+    height: 65px;
+    margin: 30px 110px auto auto;
+}

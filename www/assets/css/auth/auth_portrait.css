@@ -1,0 +1,29 @@
+.auth-block {
+    width: 692px;
+    height: 610px;
+    border-radius: 66px;
+    margin: 125px auto auto calc(50vw - 356px);
+}
+
+.auth-hello-text {
+    font-size: 181px;
+    margin-top: calc(50vh - 305px - 120px);
+}
+.auth-block p {
+    font-size: 57px;
+}
+.auth-answer-text {
+    margin-top: 210px;
+}
+.auth-request-text {
+    margin-top: 20px;
+}
+
+.auth-input {
+    width: 380px;
+    height: 102px;
+    border-radius: 43px;
+    font-size: 57px;
+    margin-left: calc(50% - 190px - 2px);
+    margin-top: 30px;
+}

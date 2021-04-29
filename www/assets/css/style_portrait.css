@@ -1,0 +1,4 @@
+.header .user-name {
+    font-size: 57px;
+    margin: 94px auto auto calc(100vw - 195px - 80px * 2);
+}

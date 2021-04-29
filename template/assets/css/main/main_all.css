@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+}
+@font-face {
+    font-family: Tw_new;
+    src: url("../../fonts/Tw Cen MT Condensed Extra Bold.ttf");
+}
+@font-face {
+    font-family: Myriad Pro;
+    src: url("../../fonts/myriadpro-regular.ttf");
+}
+body{
+    background-color: #292841;
+}
+
+.header, content{
+    position:static;
+}
+
+.header-name {
+    position: absolute;
+    font-family: "Tw_new", serif;
+    color: white;
+    text-align: right;
+}
+.header-circle{
+    position: absolute;
+    background-color: #F7E5BC;
+    border-radius: 50%;
+}
+.header-circle img{
+    width: 80%;
+    margin: 10% auto auto 10%;
+}
+
+.content-h1{
+    position: absolute;
+    font-family: "Tw_new", serif;
+    color: #525463;
+}
+.content-line{
+    position: absolute;
+    background-color: #525463;
+    border: none;
+}
+
+.games-table{
+    position: absolute;
+}
+.game{
+    background-color: black;
+    border: none;
+}
+.game-logo{
+    position: relative;
+    width: 50%;
+    height: 50%;
+    margin-top: 12.5%;
+    margin-left: 25%;
+}
+.game-text{
+    font-family: "Tw_new", serif;
+    color: #2E3E5A;
+    text-align: center;
+}
+
+.color-1{
+    background-color: #FF85AB;
+}
+.color-2{
+    background-color: #7CE4CC;
+}
+.color-3{
+    background-color: #AFC6FA;
+}
+.color-4{
+    background-color: #F7E5BC;
+}
+.color-5{
+    background-color: #628BF7;
+}
+.color-6{
+    background-color: #E060AD;
+}
+
+.gradient{
+    position: fixed;
+    width: 100vw;
+    height: 200px;
+    background: linear-gradient(0grad, rgba(41, 40, 65, 1), rgba(81, 83, 140, 0));
+    margin-top: calc(100vh - 200px);
+    z-index: 1;
+}
+
+.footer{
+    position: absolute;
+    width: 100%;
+}
+.footer p{
+    font-family: Myriad Pro;
+    color: #DCDDDE;
+    text-align: center;
+}

@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+@font-face {
+    font-family: Tw_new;
+    src: url("../../fonts/Tw Cen MT Condensed Extra Bold.ttf");
+}
+body{
+    background-color: #292841;
+}
+
+.content{
+    position: relative;
+}
+
+.auth-block {
+    position: absolute;
+    background-color: #7CE4CC;
+    border: none;
+}
+.auth-hello-text {
+    position: relative;
+    font-family: "Tw_new", serif;
+    text-align: center;
+    color: white;
+}
+.auth-block p {
+    font-family: "Tw_new", serif;
+    text-align: center;
+}
+.auth-answer-text {
+    color: #43B581;
+}
+.auth-request-text {
+    color: white;
+}
+
+.auth-input {
+    position: absolute;
+    border: none;
+    font-family: "Tw_new", serif;
+    text-align: center;
+    outline: none;
+}
+.auth-block input:required:valid{
+    color: #51538C;
+}
+.auth-block input:required:invalid{ 
+    color: #F25170;
+}

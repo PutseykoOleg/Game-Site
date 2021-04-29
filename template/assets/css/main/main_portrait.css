@@ -1,0 +1,54 @@
+.body{
+    width: 100vw;
+}
+
+.header-name {
+    font-size: 57px;
+    margin: 94px auto auto calc(100vw - 195px - 80px * 2);
+}
+.header-circle{
+    width: 130px;
+    height: 130px;
+    margin: 60px auto auto calc(100vw - 195px);
+}
+
+.content-h1{
+    font-size: 57px;
+    margin: 400px auto auto calc(50vw - 85px);
+}
+.content-line{
+    width: 400px;
+    height: 6pt;
+    border-radius: 3pt;
+    margin: 500px auto auto calc(50vw - 200px);
+}
+
+.game{
+    width: 400px;
+    height: 400px;
+    border-radius: 66px;
+}
+.game-text{
+    margin-top: 45px;
+    font-size: 57px;
+}
+
+.games-table{
+    margin: calc(470px + 6pt) auto auto calc(50vw - (400px * 1 + 50px * 2) / 2);
+    padding-bottom: 500px;
+}
+.games-table tr{
+    display: block;
+}
+.games-table td{
+    margin-top: 100px;
+    display: flex;
+}
+
+.footer{
+    /* margin-top: calc(470px + 6pt + 400px * 6 + 100px * 7 + 50px + 250px); */
+    margin-top: calc(470px + 6pt + 30px + 400px * 6 + 100px * 7 + 250px);
+}
+.footer p{
+    font-size: 25px;
+}

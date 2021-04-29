@@ -1,0 +1,42 @@
+@font-face {
+    font-family: Tw_new;
+    src: url("../fonts/Tw Cen MT Condensed Extra Bold.ttf");
+}
+@font-face {
+    font-family: Myriad Pro;
+    src: url("../fonts/myriadpro-regular.ttf");
+}
+
+body{
+    background-color: #292841;
+    margin: 0;
+}
+.header, content, footer{
+    width: 100%;
+    overflow: hidden;
+}
+.header{
+    height: 125px;
+    background-color: black;
+}
+.footer{
+    height: 50px;
+    background-color: white;
+}
+
+.user-name{
+    position: absolute;
+    font-family: "Tw_new", serif;
+    color: white;
+    text-align: right;
+}
+
+.br-50{
+    border-radius: 50%;
+    border: none;
+}
+
+.h1{
+    font-family: 'Tw_new', serif;
+    color: #525463;
+}

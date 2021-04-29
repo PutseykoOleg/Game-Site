@@ -1,0 +1,37 @@
+
+
+.content-line{
+    background-color: #525463;
+    border: none;
+}
+
+.game{
+    background-color: black;
+    border: none;
+}
+.game-logo{
+    width: 50%;
+    height: 50%;
+    margin-top: 12.5%;
+    margin-left: 25%;
+}
+.game-text{
+    font-family: "Tw_new", serif;
+    color: #2E3E5A;
+    text-align: center;
+}
+
+.gradient{
+    position: fixed;
+    width: 100vw;
+    height: 200px;
+    background: linear-gradient(0grad, rgba(41, 40, 65, 1), rgba(81, 83, 140, 0));
+    margin-top: calc(100vh - 200px);
+    z-index: 1;
+}
+
+.footer p{
+    font-family: Myriad Pro;
+    color: #DCDDDE;
+    text-align: center;
+}
